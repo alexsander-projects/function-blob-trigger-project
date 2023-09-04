@@ -1,8 +1,10 @@
 # Introduction
 
+This is a simple one.
+
 Here we will see how to create a Function using Azure Portal and adding a Blob trigger to process an uploaded blob to an specific container in a Storage Account.
 
-![]()
+![](https://github.com/nokorinotsubasa/function-blob-trigger-project/blob/c152426fb5eefd592e24935a0ed84438c84c05fb/images/Architecture.png)
 
 ## Steps
 
@@ -12,7 +14,7 @@ Here we will see how to create a Function using Azure Portal and adding a Blob t
 
 - With the resource created, add a new funtion of type `Blob Trigger`:
 
-![]()
+![](https://github.com/nokorinotsubasa/function-blob-trigger-project/blob/c152426fb5eefd592e24935a0ed84438c84c05fb/images/Createfunctionpage.png)
 
 >`correctly set the container name, set the file name as {file}, this way any file uploaded will trigger the function`
 
@@ -24,7 +26,7 @@ Here we will see how to create a Function using Azure Portal and adding a Blob t
 
 - Head into the console and set the logs as `Filesystem Logs`:
 
-![]()
+![](https://github.com/nokorinotsubasa/function-blob-trigger-project/blob/c152426fb5eefd592e24935a0ed84438c84c05fb/images/filesystemlogs.png)
 
 >`logs`
 
